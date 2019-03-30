@@ -105,7 +105,6 @@ def fill_from_colors(window, graphics_object, colors):
     # EXAMPLE 3.  Iterates through a sequence of colors.
     # -------------------------------------------------------------------------
     graphics_object.attach_to(window)
-
     for k in range(len(colors)):
         graphics_object.fill_color = colors[k]
         window.render(0.5)
